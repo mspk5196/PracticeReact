@@ -1,0 +1,37 @@
+.navbar-container {
+    background-color: rgb(163, 162, 162);
+    display: flex;
+}
+
+.links {
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: auto 30px;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+    align-content: center;
+    width: 90px;
+    height: 50px;
+}
+
+li:hover {
+    color: white;
+    background-color: rgb(113, 111, 111);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    margin: auto 0;
+    margin-left: 10px;
+}
