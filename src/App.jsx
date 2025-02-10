@@ -18,10 +18,10 @@ function App() {
       <NavLinks/>
       
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/home" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/PracticeReact" element={<Home/>} />
+          <Route path="/PracticeReact/home" element={<Home/>} />
+          <Route path="/PracticeReact/about" element={<About/>} />
+          <Route path="/PracticeReact/contact" element={<Contact/>} />
         </Routes>
       
     </div>
